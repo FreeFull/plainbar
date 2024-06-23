@@ -1,0 +1,12 @@
+[package]
+name = "plainbar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+env_logger = "0.11.3"
+log = "0.4.21"
+miette = { version = "7.2.0", features = ["fancy"] }
+smithay-client-toolkit = "0.19.1"
+swash = "0.1.17"
